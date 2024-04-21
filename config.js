@@ -8,46 +8,45 @@ import axios from 'axios';
 import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
-global.botnumber = ""
-global.confirmCode = ""
+global.botnumber = "+994406674437"
+global.confirmCode = "+994406674437"
 
 //• ↳𝑷𝑶𝑵 𝑳𝑶𝑺 𝑵𝑼𝑴𝑬𝑹𝑶𝑺 𝑸𝑼𝑬 𝑸𝑼𝑰𝑬𝑹𝑨𝑺
 global.owner = [
-['573012482597', '👑 Cʀᴇᴀᴅᴏʀ 🪐', true],
-['5214531287294', 'Zᴀᴍ Oᴡɴᴇʀ 🍧', true],
-['573218138672', 'Sᴜᴘᴘʀᴛ 💻', true],
-['447700168473'],
-['5492266613038'],
-['51935499065']]
+['994406674437', '👑 𝔰𝔥𝔞𝔡𝔬𝔴 🪐', true],
+['994406674437', '𝙨𝙝𝙖𝙙𝙤𝙬🍧', true],
+['994406674437', '𝙨𝙝𝙖𝙙𝙤𝙬 💻', true],
+['994406674437'],
+['994406674437'],
+['994406674437']]
 
 //• ↳𝑨𝑮𝑹𝑬𝑮𝑨𝑻𝑬 𝑺𝑰 𝑬𝑹𝑬𝑺 𝑶𝑾𝑵𝑬𝑹
 global.contactos = [
-["573012482597", '💚 Dɪᴇɢᴏ Oғᴄ 💋', 1],
-["5214531287294", 'Zᴀᴍ Oᴡɴᴇʀ 🍧', 1],
-["447700168473", 'Dᴇsᴀʀʀᴏʟʟᴀᴅᴏʀ 🐈', 1],
-['573218138672', 'Sᴜᴘᴘʀᴛ 💻', 1]]
+["994406674437", '💚 𝙨𝙝𝙖𝙙𝙤𝙬', 1],
+["994406674437", '𝙨𝙝𝙖𝙙𝙤𝙬 🍧', 1],
+["994406674437", '𝙨𝙝𝙖𝙙𝙤𝙬 🐈', 1]]
 
-global.suittag = ['573012482597'];
-global.prems = ['573218138672'];
+global.suittag = ['994406674437'];
+global.prems = ['994406674437'];
 
-global.lenguajeYL = es //idioma de yotsuba
+global.lenguajeYL = es //idioma de kana
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 🍁
-global.packname = '𝗬𝗼𝘁𝘀𝘂𝗯𝗮 𝗡𝗮𝗸𝗮𝗻𝗼 - 𝗠𝗗 🪷';
-global.author = 'Dɪᴇɢᴏ 🌩';
-global.wm = 'Yotsuba : Nakano 🌼';
-global.titulowm = '𝗬𝗈𝗍𝗌𝗎𝖻𝖺 : 𝗡𝖺𝗄𝖺𝗇𝗈';
-global.titulowm2 = `𝐃𝐢𝐞𝐠𝐨 𝐎𝐟𝐜`
-global.igfg = 'Diego Oficial';
-global.sk = 'Yᴏᴛsᴜʙᴀ Nᴀᴋᴀɴᴏ - MD';
-global.team = '𝐒𝐭𝐚𝐫𝐥𝐢𝐠𝐡𝐭𝐬 𝐓𝐞𝐚𝐦';
+global.packname = '𝘀𝗵𝗮𝗱𝗼𝘄 - 𝗠𝗗 🍄';
+global.author = '𝙨𝙝𝙖𝙙𝙤𝙬 🌩';
+global.wm = '𝙨𝙝𝙖𝙙𝙤𝙬 : 𝔰𝔥𝔞𝔡𝔬𝔴 🌼';
+global.titulowm = '𝘀𝗵𝗮𝗱𝗼𝘄 - 𝗠𝗗';
+global.titulowm2 = `𝙨𝙝𝙖𝙙𝙤𝙬`
+global.igfg = '𝔰𝔥𝔞𝔡𝔬𝔴';
+global.sk = 'created by : 𝙨𝙝𝙖𝙙𝙤𝙬';
 global.vs = '1.0.7';
+global.vsJB = '1.0.2';
 
 //• ↳ ◜𝑴𝑺𝑮 𝑫𝑬 𝑬𝑺𝑷𝑬𝑹𝑨◞ • 🈸
-global.wait = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waittt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
-global.waitttt = '*⏰️ 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 ...*';
+global.wait = '*⏰️ ...استنى لحظه*';
+global.waitt = '*⏰️ ...استنى لحظه*';
+global.waittt = '*⏰️ ...استنى لحظه*';
+global.waitttt = '*⏰️ ...استنى لحظه*';
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -60,19 +59,17 @@ global.imagen7 = fs.readFileSync('./AhoraQue.png');
 global.imagen8 = fs.readFileSync('./Que.jpg');
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De Yotsuba
+global.gp1 = 'https://chat.whatsapp.com/Eaa9JFA53ps7WHMv2VHbO9' //Grupo Oficial De Kana
 
-global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y Yotsuba
+global.gp2 = 'https://chat.whatsapp.com/JNdlCEUKLqHAw87sOqfKmO' //CuriosityBot Y Kana
 
-global.gp3 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y Yotsuba
+global.gp3 = 'https://chat.whatsapp.com/IstOAq2RnBx687WhQpOYK8' //NovaBot Y Kana
 
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 
-global.channel2 = 'https://whatsapp.com/channel/0029VaBfsIwGk1FyaqFcK91S' //Canal Starlights Team
-
 global.yt = 'https://www.youtube.com/@SakuraBotLite' //Canal De Youtube
 
-global.md = 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD' //Github Oficial
+global.md = 'https://github.com/Diego-YL-177/Kana-Arima-MD' //Github Oficial
 
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
@@ -92,11 +89,11 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nNakano`;
-global.gt = 'Yotsuba';
-global.mysticbot = 'Yotsuba';
-global.mysticbot = 'https://github.com/Diego-YL-177/Yotsuba-Nakano-MD';
-global.nomorown = '573012482694';
+global.wm2 = `${dia} ${fecha}\n𝙨𝙝𝙖𝙙𝙤𝙬`;
+global.gt = 'Arima';
+global.mysticbot = '𝘀𝗵𝗮𝗱𝗼𝘄';
+global.mysticbot = 'https://github.com/Diego-YL-177/Kana-Arima-MD';
+global.nomorown = '994406674437';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -111,8 +108,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*📅 Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*🕒 Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.botdate = `*📅 التاريخ:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
+global.bottime = `*🕒 الساعة:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
