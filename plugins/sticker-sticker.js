@@ -46,7 +46,7 @@ else throw `🧿 『𝐄𝐑𝐑𝐎𝐑』 🧿\n\n𝗘𝗡𝗩𝗜𝗘 𝗨�
 }}
 handler.help = ['stiker (caption|reply media)', 'stiker <url>', 'stikergif (caption|reply media)', 'stikergif <url>']
 handler.tags = ['sticker']
-handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
+handler.command = /^س|ستيكر|s(tic?ker)?(gif)?(wm)?$/i
 
 export default handler
 
